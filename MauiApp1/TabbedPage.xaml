@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:MauiApp1"
+             x:Class="MauiApp1.TabbedPage" SizeChanged="TabbedPage_SizeChanged">
+    <local:MainPage Title="MainPage" />
+    <ContentPage Title="Inline">
+        <Grid RowDefinitions="Auto,*,Auto">
+            <SearchBar />
+            <ListView Grid.Row="1">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                        <x:String>Item 1</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+            <Button Grid.Row="2" Text="OK" />
+        </Grid>
+    </ContentPage>
+</TabbedPage>
